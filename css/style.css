@@ -1,0 +1,168 @@
+body {
+    color: #212529;
+}
+
+html,
+p,
+div,
+h5 {
+    font-size: 100%;
+}
+
+a,
+p,
+input,
+select,
+textarea,
+label {
+    /*    font-family: 'Open Sans';*/
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.container {
+    width: 1050px;
+    padding-top: 20px;
+}
+
+.rightCol-img img {
+    padding: 10px 0 22px;
+    vertical-align: baseline;
+}
+
+.container h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #4ccef0;
+    margin: 5px 0 5px 0;
+}
+
+
+p {
+    padding: 10px 0;
+}
+
+.leftSection p {
+    font-weight: 400;
+}
+
+.rightSection{
+    margin-bottom: 25px;
+}
+
+/* Video */
+
+.modal-body {
+    padding: 0.3rem;
+}
+
+
+/* Form */
+
+.formSection h5 {
+    padding-bottom: 5px;
+}
+
+.contactForm button[type="submit"],
+.form-group input select {
+    background-color: #FE6500;
+}
+
+.form-group input {
+    top: 0px;
+    left: 0px;
+    cursor: text;
+    padding-top: 11px 15px 0;
+    border-color: #E8E8E8;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.contactForm button {
+    width: 100%;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFF;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0px 20px 0px 20px;
+}
+
+.contactForm button:hover {
+    background: aqua;
+}
+
+.form-group input,
+.contactForm button {
+    height: 46px;
+    line-height: 1.5em;
+    border-radius: 0;
+}
+
+input:active,
+input:focus {
+    outline: none;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+}
+
+.contactForm .form-group input:focus {
+    outline: none;
+    border-bottom: 3px solid #FE6500;
+    box-shadow: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: #fff;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-color: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: none;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/*
+input:invalid:not(:placeholder-shown), #exampleInputEmail1:invalid:not(:placeholder-shown)  {
+    border: none;
+}
+
+input:valid:not(:placeholder-shown), #exampleInputEmail1:valid:not(:placeholder-shown) {
+   background: #ccc;
+}
+*/
+
+/* Large, Extra large */
+@media (min-width: 960px) {
+
+    html,
+    .form-group input {
+        font-size: 1rem;
+    }
+}
+
+/* Medium , > Medium */
+@media (max-width: 576px) {
+
+    html,
+    .form-group input {
+        font-size: 0.88rem;
+    }
+}
